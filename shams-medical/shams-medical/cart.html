@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Shopping Bag | Shams Medical</title>
+    <meta name="description" content="Your shopping bag.">
+    <meta property="og:title" content="Shopping Bag | Shams Medical">
+    <meta property="og:description" content="Your shopping bag.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Jost:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-page="cart" data-nav="cart.html">
+    <div id="site-header"></div>
+    <main>
+        <div class="wrap">
+            <nav class="bc"><a href="index.html">Home</a> / Bag</nav>
+            <h1 style="font-size:2.4rem">Shopping bag</h1>
+            <div class="lay">
+                <div id="lines"></div>
+                <aside class="sum" id="sum">
+                    <div id="tot"></div>
+                    <form id="codef" style="display:flex;gap:6px;margin:10px 0"><input id="code"
+                            aria-label="Discount code" placeholder="Discount code"><button class="btn sm">Apply</button>
+                    </form>
+                    <p class="note">Demo codes: SHAMS10, WELCOME15</p><a class="btn gold"
+                        style="display:block;text-align:center;margin:12px 0 8px" href="checkout.html">Proceed to
+                        checkout</a><a class="btn ghost" style="display:block;text-align:center"
+                        href="shop.html">Continue shopping</a>
+                </aside>
+            </div>
+        </div>
+    </main>
+    <div id="site-footer"></div>
+    <script src="js/products.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

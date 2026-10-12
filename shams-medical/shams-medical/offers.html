@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Offers | Shams Medical</title>
+    <meta name="description" content="Discounted products at Shams Medical.">
+    <meta property="og:title" content="Offers | Shams Medical">
+    <meta property="og:description" content="Discounted products at Shams Medical.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Jost:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-page="shop" data-nav="offers.html" data-offers="1">
+    <div id="site-header"></div>
+    <main>
+        <div class="wrap">
+            <nav class="bc"><a href="index.html">Home</a> / Offers</nav>
+            <h1 style="font-size:2.6rem">Offers</h1>
+            <p id="count" style="margin:6px 0 18px"></p>
+            <div class="shop">
+                <form class="filters" id="filters" aria-label="Filters" onsubmit="return false"></form>
+                <div>
+                    <div class="grid" id="list"></div>
+                    <div id="empty"></div>
+                    <p style="text-align:center;margin-top:24px"><button class="btn ghost" id="more" hidden>Load
+                            more</button></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div id="site-footer"></div>
+    <script src="js/products.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
